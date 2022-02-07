@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;700&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Readex Pro', sans-serif;
+    background-color: #0a0c1b;
+}
+
+.container{
+    width: 100rem;
+    height: 42rem;
+    display: flex;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.left-section{
+    width: 50%;
+    height: 100%;
+    padding: 70px 76px 0 60px;
+    background-color: #1c1938;
+    color: #fff;
+}
+
+.left-section h1{
+    font-size: 3.4rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.left-section h1 span{
+    color: #a45cd2;
+}
+
+.left-section p{
+    font-size: 1.4rem;
+    letter-spacing: .5px;
+    line-height: 170%;
+    opacity: .6;
+    margin-bottom: 60px;
+}
+
+.left-section .items{
+    display: flex;
+}
+
+.left-section .items div{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-section .items .templates,.queries{
+    margin-left: 6rem;
+}
+
+.left-section .items div span:first-child{
+    font-size: 2.4rem;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+.left-section .items div span:last-child{
+    font-size: 1.2rem;
+    letter-spacing: .8px;
+    opacity: .6;
+    text-transform: uppercase;
+}
+
+.right-section{
+    width: 50%;
+    height: 100%;
+    background: url(image-right.jpg);
+    background-size: cover;
+}
+
+.purple-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #b368e2;
+    mix-blend-mode: multiply;
+}
+
+
+
